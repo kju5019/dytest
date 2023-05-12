@@ -1,10 +1,10 @@
 package ch05;
 
 public class Bus extends Car {
-	private int seat = 0;
+	private int seat;
 	
 	Bus(){
-//		super();
+		super();
 		System.out.println("Bus 생성자 호출");
 	}
 	
@@ -12,10 +12,13 @@ public class Bus extends Car {
 	Bus(int seat){		
 		this.seat = seat;
 	}
+	
+	Bus(int wheel, int speed){
+		super(wheel,speed);
+	}
 
 	Bus(int wheel, int speed, int seat) {
-		super(wheel);
-		setSpeed(speed);
+		super(wheel,speed);
 		this.seat = seat;
 	}
 	

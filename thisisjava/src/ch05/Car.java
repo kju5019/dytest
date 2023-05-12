@@ -13,9 +13,8 @@ public class Car {
 	}
 	
 	Car(int wheel, int speed) {
-		super();
-		this.wheel = wheel;
-		this.speed = speed;
+		setWheel(wheel);
+		setSpeed(speed);
 	}
 
 

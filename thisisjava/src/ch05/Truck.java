@@ -8,8 +8,7 @@ public class Truck extends Car {
 	}
 	
 	Truck(int wheel, int speed, int weight) {
-		super(wheel);
-		setSpeed(speed);
+		super(wheel,speed);		
 		this.weight = weight;
 	}
 	

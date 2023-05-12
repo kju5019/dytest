@@ -8,8 +8,7 @@ public class Sedan extends Car {
 	}
 	
 	Sedan(int wheel, int speed, String roof) {
-		super(wheel);
-		setSpeed(speed);
+		super(wheel,speed);	
 		this.roof = roof;
 	}
 	
