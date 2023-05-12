@@ -22,11 +22,11 @@ class Solution {
 			s = (n%3) + s;
 			n /= 3;
 		}
-		System.out.println(s);--
+		System.out.println(s);
 
 		for(int i=0; i<s.length(); i++) {
 			c1 = s.charAt(i);
-			s.charAt(i) = s.charAt(s.length()-i);
+
 		}
 		
 		

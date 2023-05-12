@@ -30,7 +30,7 @@ public class CarCompany {
 		Car test = new Bus();
 		test.setWheel(5);
 		System.out.println("test의 wheel: "+test.getWheel());
-		//Car 타입의 test의 setWheel 메소드를 실행시켯으나
+		//Car 타입의 test의 setWheel 메소드를 실행시켰으나
 		//자식클래스인 Bus에서 setWheel 메소드를 재정의 했다면
 		//자식클래스에서 재정의한 setWheel이 실행된다.
 

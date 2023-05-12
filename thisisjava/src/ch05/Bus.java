@@ -19,7 +19,7 @@ public class Bus extends Car {
 
 	Bus(int wheel, int speed, int seat) {
 		super(wheel,speed);
-		this.seat = seat;
+		setSeat(seat);
 	}
 	
 	
