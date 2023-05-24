@@ -12,8 +12,6 @@ public class CarExample {
 		myCar.run();
 		
 		myCar.tire = new KumhoTire();
-		myCar.run();
-		
+		myCar.run();		
 	}
-
 }
