@@ -11,7 +11,7 @@ public class RandommArrayApp {
 			
 			for(int j=0; j<i; j++) {				
 				if(arr[j] == ran) {
-					System.out.println("arr[j]: "+ arr[j]+" ran: "+ran);
+					System.out.println("arr["+j+"]: "+ arr[j]+" ran: "+ran);
 					System.out.println("중복");
 					i--;
 				}
