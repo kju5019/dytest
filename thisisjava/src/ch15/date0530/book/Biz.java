@@ -10,8 +10,6 @@ public class Biz {
 		for(int i=0; i<contents.length; i++) {				
 			bookList.add(new Book(contents[i].split("/")));
 		}
-
-		
 		
 		return bookList;
 	}

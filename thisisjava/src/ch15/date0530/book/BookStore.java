@@ -3,12 +3,9 @@ package ch15.date0530.book;
 import java.util.List;
 
 public class BookStore {
-	private Book[] bookArray;
-	List<Book> bookList;
 
-	public BookStore(Book[] bookArray) {
-		this.bookArray = bookArray;
-	}
+	private List<Book> bookList;
+
 
 	public BookStore(List<Book> bookList) {
 		this.bookList = bookList;

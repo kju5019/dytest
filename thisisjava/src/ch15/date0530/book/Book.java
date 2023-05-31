@@ -13,15 +13,6 @@ public class Book {
 	
 	DecimalFormat df = new DecimalFormat("#,###");
 	
-	public Book(String category, String title, String writer, String company, int price, String isbn) {
-		this.category = category;
-		this.title = title;
-		this.writer = writer;
-		this.company = company;
-		this.price = price;
-		this.isbn = isbn;
-	}
-	
 
 	public Book(String[] bookList) {
 		this.category = bookList[0];
