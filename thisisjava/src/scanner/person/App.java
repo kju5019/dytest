@@ -56,12 +56,9 @@ public class App {
 				default:
 					System.out.println("잘못 선택하셨습니다.");
 					break;
-				}
-				
-				
-				
+				}			
 			}catch(Exception e) {
-				
+				e.printStackTrace();
 			}
 		}
 		

@@ -7,19 +7,16 @@ import java.util.Scanner;
 public class Manager {
 	List<Person> personList = new ArrayList<>();
 
-	
-	
+		
 	//1. 전체 출력
 	public void printPersonList() {
 		for(int i=0; i<personList.size(); i++) {
 			System.out.print(i+1+".");
 			personList.get(i).printInfo();
-		}
-		
+		}		
 	}
 
-
-
+	
 	//2. 등록
 	public void addPerson(Scanner sc) {
 		System.out.print("ID를 입력하세요 =>");
@@ -39,9 +36,8 @@ public class Manager {
 				System.out.println("인원을 추가할 수 없습니다. 동일한 ID가 존재합니다.");
 				return;
 			}					
-		}		
-		personList.add(new Person(id,name,age,sex));
-		
+		}
+		personList.add(new Person(id,name,age,sex));		
 	}
 
 
@@ -64,8 +60,7 @@ public class Manager {
 				personList.get(i).setSex(sex);
 				return;
 			}					
-		}
-		
+		}		
 	}
 
 
@@ -77,6 +72,7 @@ public class Manager {
 		for(int i=0; i<personList.size(); i++) {
 			if( id.equals( personList.get(i).getId() ) ) {
 				personList.remove(i);
+				System.out.println("삭제 완료");
 				return;
 			}					
 		}
@@ -93,7 +89,7 @@ public class Manager {
 			}					
 		}
 		
-	}
+	}	
 
 
 	//6. 조회(나이 구간)
@@ -109,15 +105,8 @@ public class Manager {
 			if(personList.get(i).getAge()>= minAge && personList.get(i).getAge()<=maxAge) {
 				personList.get(i).printInfo();
 			}
-		}
-		
+		}		
 	}
-	
-	
-	
-	
-	
-	
 	
 
 }
