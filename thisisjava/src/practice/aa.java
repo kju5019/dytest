@@ -1,9 +1,14 @@
 package practice;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+
+import ch15.date0530.book.Book;
+
 public class aa {
-	public static void main(String[] args) {
-		Thread thread = new WorkerThread();
-		thread.start();
-}
+	
+		
+		int[] array ;
+
 }
 

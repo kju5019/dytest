@@ -104,8 +104,6 @@ public class OrderManager {
 			orderList.get(i).printInfo();			
 		}
 	}
-	
-	
-	
+
 
 }//클래스
